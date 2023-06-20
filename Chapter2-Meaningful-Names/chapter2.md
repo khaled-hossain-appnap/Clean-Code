@@ -1,4 +1,4 @@
-# Meaningful Names
+# Chapter 2 - Meaningful Names
 
 ## Use Intention-Revealing Names
 

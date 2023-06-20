@@ -146,7 +146,7 @@ for (int j=0; j< NUMBER_OF_TASKS; j++) {
 ```
 
 - <b> Avoid Mental Mapping </b> <br>
-  if you can reliably remember that r is the lower- <b>cased version of the url with the host and scheme removed, then you must clearly be very smart.
+  if you can reliably remember that r is the lower-cased version of the url with the host and scheme removed, then you must clearly be very smart.
 
 - <b> Class Names </b> <br>
   classes and objects should have noun or noun phrase names like

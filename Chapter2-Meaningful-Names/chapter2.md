@@ -17,8 +17,9 @@ int daysSinceModification;
 int fileAgeInDays;
 ```
 
-- <b> Choose names that reveal intent </b> <br>
-  BAD
+## Choose names that reveal intent
+
+BAD
 
 ```
 getThem() {
@@ -51,8 +52,9 @@ getFlaggedCells() {
 }
 ```
 
-- <b> Avoid Disinformation </b> </br>
-  poor variable names
+## Avoid Disinformation
+
+poor variable names
 
 ```
 inch, cm, sec, accountList = {}
@@ -62,7 +64,7 @@ inch, cm, sec, accountList = {}
 myAccountHolder, yourAccountHolder
 ```
 
-- <b> Inconsistent Spelling </b>
+## Inconsistent Spelling
 
 ```
 accountInfo, acntInfo, acntInformation, accInfo
@@ -76,7 +78,9 @@ Product ProductInfo ProductData
 moneyAmount, money, customerInfo, customer, accountData, account
 ```
 
-- <b> Make Meaningful Distinctions. code for humans not for compiler. </b>
+## Make Meaningful Distinctions.
+
+code for humans not for compiler
 
 ```
 copyChars(a1[], a2[]){
@@ -92,7 +96,7 @@ we could use source and destination as arguments.
 NameString, CustomerObject
 ```
 
-- <b> Avoid similar function names </b>
+## Avoid similar function names
 
 ```
 getActiveAccount();
@@ -100,8 +104,10 @@ getActiveAccounts();
 getActiveAccountInfo();
 ```
 
-- <b> Use Pronounceable Names. if you can't prnounce it you can not discuss it without sounding like an idiot. </b><br>
-  Bad
+## Use Pronounceable Names.
+
+if you can't prnounce it you can not discuss it without sounding like an idiot.<br>
+Bad
 
 ```
 class DtaRcrd102 {
@@ -122,8 +128,9 @@ int recordId
 }
 ```
 
-- <b> Use Searchable Names </b> <br>
-  Bad
+## Use Searchable Names
+
+Bad
 
 ```
 for(int j=0; j<34; j++){
@@ -145,11 +152,13 @@ for (int j=0; j< NUMBER_OF_TASKS; j++) {
 }
 ```
 
-- <b> Avoid Mental Mapping </b> <br>
-  if you can reliably remember that r is the lower-cased version of the url with the host and scheme removed, then you must clearly be very smart.
+## Avoid Mental Mapping
 
-- <b> Class Names </b> <br>
-  classes and objects should have noun or noun phrase names like
+if you can reliably remember that r is the lower-cased version of the url with the host and scheme removed, then you must clearly be very smart.
+
+## Class Names
+
+classes and objects should have noun or noun phrase names like
 
 ```
 Customer, WikiPage, Account, AddressParser
@@ -163,8 +172,9 @@ Manager, processor, Data, Info in the name of a class
 
 a classname should not be a verb
 
-- <b> Method Names</b> <br>
-  Method names should have verb or verb names like
+## Method Names
+
+Method names should have verb or verb names like
 
 ```
 postPayment, deletePage, saveUser, getUser
@@ -176,13 +186,13 @@ It should prefixed by following keywords
 get, set or action
 ```
 
-- <b> for Boolean type value always use "is" prefix </b>
+## for Boolean type value always use "is" prefix
 
 ```
 isLoading, setIsLoading, getIsLoading
 ```
 
-- <b> Don't be Cute </b>
+## Don't be Cute
 
 ```
 whack() to mean kill()
@@ -196,7 +206,9 @@ eatMyShorts() to mean abort()
 holyHandGrenade() to mean deleteItems()
 ```
 
-- <b> Pick One Word per Concept. Its confusing to use these keywords interchangably. </b>
+## Pick One Word per Concept.
+
+Its confusing to use these keywords interchangably
 
 ```
 fetch, retrieve, get
@@ -206,19 +218,19 @@ fetch, retrieve, get
 manager, controller, driver
 ```
 
-- <b>Use Solution Domain Names </b></b>
+## Use Solution Domain Names
 
 ```
 AccountVisitor, NewsPublisher, JobQueue
 ```
 
-- <b>Use Problem Domain Names </b>
+## Use Problem Domain Names
 
 ```
 BOGO, CouponDiscount, FreeDelivery
 ```
 
-- <b>Add variable according to Context</b>
+## Add variable according to Context
 
 ```
 Address / PostAddress, Mac, URI

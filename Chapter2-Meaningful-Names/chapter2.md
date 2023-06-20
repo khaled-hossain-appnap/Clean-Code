@@ -100,7 +100,7 @@ getActiveAccounts();
 getActiveAccountInfo();
 ```
 
-- <b> Use Pronounceable Names. if you can't prnounce it you can not discuss it without sounding like an idiot.<br>
+- <b> Use Pronounceable Names. if you can't prnounce it you can not discuss it without sounding like an idiot. </b><br>
   Bad
 
 ```
